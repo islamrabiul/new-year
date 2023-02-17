@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+}
+/* Header and Banner section style */
+.header{
+    background: url(images/banner/banner3.png);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-description{
+    margin-top: 215px;
+    margin-left: 800px;
+    margin-right: 100px;
+}
+.header-description h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.header-description p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    text-align:right
+}
+.primary-btn{
+    margin-left: 300px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    color: #005FAC;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+/* Failure section style */
+.failure{
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right: 300px;
+}
+.failure img{
+    width: 500px;
+    height: 700px;
+}
+.failure h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-top: 200px;
+}
+.failure p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    text-align: justify;
+
+}
+.failure ul li:before {
+    content: '\2713';
+    
+    color:rgb(110, 231, 110);
+    padding: 0 5px 0 0;
+} 
+.failure ul li {
+    list-style-type: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+/* Plan section style */
+.plan{
+    margin-top: 130px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.plan h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plan-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.item{
+    
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 grey;
+}
+.item img{
+    width: 92.96px;
+    height: 92.96px;
+    padding: 30px 50px ;
+}
+.item h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+.item p{
+    text-align: justify;
+    padding: 15px 10px;
+}
+/* mindset section style */
+.mindset{
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    background:linear-gradient(90deg,#005FAC 0%,rgba(35, 142, 229, 0) 100%),url(images/watch.png);
+    height: 300px;
+    border-radius: 8px;
+}
+.mindset h3{
+    padding-top: 60px;
+    padding-left: 65px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.mindset-btn{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #005FAC;
+    margin-left: 65px;
+    margin-top: 25px;
+    padding: 20px 35px;
+    border: 0;
+    border-radius: 5px;
+}
+/* footer section style */
+.contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    background: #151414;
+    padding: 130px 230px;
+}
+.contact h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+.contact p{
+    margin-bottom: 15px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.contact img{
+    width: 47px;
+    height: 46px;
+}
+.subscribe input{
+    padding: 10px 70px 10px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+input:focus{
+    outline: none;
+}
+.subscribe-btn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #005FAC;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
